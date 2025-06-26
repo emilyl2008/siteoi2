@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #1db4c2;
+  background: linear-gradient(179deg, #4294ff);
+}
+
+.conteiner {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-size: 17px;
+  color: black;
+  text-align: center;
+  line-height: 1.5;
+}
+.conteiner h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  color: #001fce;
+}
+.conteiner img {
+  width: 990px;
+  height: 844px;
+}
+
+.conteiner2 {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(172, 253, 226);
+}
+.conteiner2 h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+.conteiner2 p {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-size: large;
+  text-align: center;
+  padding: 100px;
+}
+
+.body3 {
+  background-color: #1a11cf;
+  /* padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px; */
+}
+
+.conteiner3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.link {
+  align-items: flex-end;
+  flex-direction: row;
+  margin-left: auto;
+  padding: 30px;
+}
+.conteiner3 p {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+}
+
+.conteiner3 img {
+  width: 400px;
+  height: auto;
+}
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-size: 50px;
+  text-align: center;
+  padding: 40px;
+  color: #000000;
+}
+
+.rodape {
+  border-radius: px;
+  background: rgb(255, 255, 255);
+  padding: 1px;
+  height: 32px;
+  text-align: center;
+  align-items: center;
+  border: none;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+  background-color: rgb(24, 101, 218);
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: 50px;
+  align-items: center;
+  padding: 100px;
+  gap: 70px;
+}
+.conteiner4 h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+  align-items: center;
+}
+.card img {
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: rgb(14, 124, 128);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  position: relative;
+  background: rgb(14, 124, 128);
+  cursor: pointer;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+.card :hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.cardinfo {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px;
+  display: none;
+  z-index: 1;
+  width: 100%;
+}
