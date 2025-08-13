@@ -95,7 +95,7 @@ h1 {
   text-align: center;
   align-items: center;
   border: none;
-  gap: 15px;
+  
 }
 
 a {
@@ -103,11 +103,13 @@ a {
 }
 
 .header {
+
   padding: 20px;
   background-color: rgb(24, 101, 218);
+  
 }
 
-.header > nav{
+header > nav{
   display: flex;
   align-items: center;
   gap: 10%;

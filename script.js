@@ -1,8 +1,3 @@
-function teste(){
-  console.log('oioioioi')
-}
-
-
 const cards = document.querySelectorAll('.card');
 
 cards.forEach((card) => {
@@ -17,9 +12,8 @@ cards.forEach((card) => {
   });
 });
 
-const modal = document.querySelector('dialog');
 
-console.log(modal)
+const modal =document.querySelector('.modal');
 
 function openModal(){
   modal.showModal();
