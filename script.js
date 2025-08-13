@@ -1,3 +1,8 @@
+function teste(){
+  console.log('oioioioi')
+}
+
+
 const cards = document.querySelectorAll('.card');
 
 cards.forEach((card) => {
