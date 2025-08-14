@@ -5,6 +5,7 @@
 body {
   background: #1db4c2;
   background: linear-gradient(179deg, #4294ff);
+  
 }
 
 .conteiner {
@@ -108,7 +109,7 @@ a {
 .header > nav{
   display: flex;
   align-items: center;
-  gap: 10%;
+  gap: 40%;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -142,19 +143,18 @@ a {
 
 .card {
   background-color: rgb(14, 124, 128);
-  padding: 1rem;
+  padding:1rem;
   margin: 1rem;
   border-radius: 8px;
-  background: rgb(14, 124, 128);
-  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .card :hover { cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-/* .card :hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 } */
@@ -165,17 +165,15 @@ a {
   left: 0;
   padding: 10px;
   display: none;
-  z-index: 1;
+  
   width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .modal{
-  display: flex;
-  justify-content: center;
-  align-items: center;      
+  margin-left: 700px;
   height: 100px;   
-  background-color: rgb(14, 124, 128);
-  padding: 1rem;
-  margin: 1rem;
+  background-color: rgb(136, 7, 7);
   border-radius: 8px;
 }
+
