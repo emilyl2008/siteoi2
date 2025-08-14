@@ -51,9 +51,7 @@ body {
 
 .body3 {
   background-color: #1a11cf;
-  /* padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 50px; */
+
 }
 
 .conteiner3 {
@@ -125,6 +123,7 @@ a {
   padding: 100px;
   gap: 70px;
 }
+
 .conteiner4 h1 {
   font-family: 'Roboto Mono', monospace;
   font-optical-sizing: auto;
@@ -133,12 +132,12 @@ a {
   padding: 50px;
   align-items: center;
 }
-.card img {
+.card > img {
   width: 200px;
   height: auto;
   padding: 20px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .card {
@@ -146,15 +145,20 @@ a {
   padding: 1rem;
   margin: 1rem;
   border-radius: 8px;
-  position: relative;
   background: rgb(14, 124, 128);
   cursor: pointer;
-  transition: transform 0.5s, box-shadow 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.card :hover {
+
+/* .card :hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-}
+} */
+
 .cardinfo {
   position: absolute;
   top: 100%;
@@ -163,4 +167,15 @@ a {
   display: none;
   z-index: 1;
   width: 100%;
+}
+
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;      
+  height: 100px;   
+  background-color: rgb(14, 124, 128);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
 }
